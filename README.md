@@ -1,15 +1,10 @@
-# Basic Sample Hardhat Project
+# Hardhat Fund Me
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project deploys the Fund Me contract on Sepolia testnet blockchain. The testing of the Fund Me contract is carried out on local blockchain as well as on hardhat blockchian.
 
-Try running some of the following tasks:
+Before starting run tasks to set up the project:
 
 ```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+yarn init
+yarn install
 ```
